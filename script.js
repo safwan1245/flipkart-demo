@@ -42,15 +42,15 @@ const searchbar = document.getElementById("search");
 searchbar.addEventListener("keyup", function() {
     const searchValue = searchbar.value.toLowerCase();
 
-    // const items = document.querySelectorAll(".searchable-item");
-    // items.forEach(item => {
-    //     const itemText = item.textContent.toLowerCase();
-    //     if (itemText.includes(searchValue)) {
-    //         item.style.display = "block";
-    //     } else {
-    //         item.style.display = "none";
-    //     }
-    // });
+    const items = document.querySelectorAll(".searchable-item");
+    items.forEach(item => {
+        const itemText = item.textContent.toLowerCase();
+        if (itemText.includes(searchValue)) {
+            item.style.display = "block";
+        } else {
+            item.style.display = "none";
+        }
+    });
     
     if(searchValue === "headset") {
         window.location.href = "product.html";
@@ -75,7 +75,7 @@ document.getElementById('signupForm')?.addEventListener('submit', function(e) {
 
     if(email === 'safwan10@gmail.com' && password === 'safwan9037' && user === 'safwananees') {
         alert('Sign up successful! You can now log in.');
-        window.location.href = 'singing.html'; // or your login page
+        window.location.href = 'singing.html'; 
     } else {
         alert('Please use the correct credentials for sign up.');
     }
@@ -86,7 +86,7 @@ document.getElementById('loginForm')?.addEventListener('submit', function(e) {
 
     if(email === 'safwan10@gmail.com') {
         alert('Sign in successful!');
-        window.location.href = 'index.html'; // or your home page
+        window.location.href = 'index.html'; 
     } else {
         alert('Invalid email!');
     }
