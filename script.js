@@ -38,7 +38,7 @@ if (next_btn) {
 }
 
 const searchbar = document.getElementById("search");
-
+if(searchbar) {
 searchbar.addEventListener("keyup", function() {
     const searchValue = searchbar.value.toLowerCase();
 
@@ -56,7 +56,7 @@ searchbar.addEventListener("keyup", function() {
         window.location.href = "product.html";
     }
     
-});
+});}
 
 let isSignUp = false;
 const users = {}; 
