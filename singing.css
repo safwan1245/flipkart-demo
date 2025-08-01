@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Outfit;
+    max-height: 100vh;
+}
+
+.logo.jpg{
+    margin-top: 20px;
+}
+
+.signin-container{
+    max-width: 500px;
+    border: 4px solid rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 26px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.signin-title{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.input-lable{
+    margin-top: 20px;
+}
+
+.signin-container input{
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    border: 3px solid black;
+    font-size: 12px;
+}
+
+.signin-container input:focus{
+    outline: 3px solid #ffd100;
+}
+
+.signin-container button{
+    width: 440px;
+    height: 32px;
+    margin: 15px 0;
+    background: #ffd100;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.signin-container button:hover{
+    background: #dcb60b;
+}
+
+.signin-condition{
+    font-size: 12px;
+}
+
+.signin-container span{
+    color: rgb(4, 134, 255);
+}
+
+.signin-bottom{
+    max-width: 350px;
+    font-size: 13px;
+    color: #000000;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px; 
+    
+}
+
+.signin-bottom hr{
+    border: none;
+    height: 1px;
+    background: blue;
+    width: 110px;
+}
+
+.signing-signup-btn{
+    width: 350px;
+    height: 30px;
+    font-size: 13px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 3px solid #000000;
+}
+
+.signing-signup-bt:hpver{
+    background: #ffd100;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 90px;
+    row-gap: 20px;
+}
+
+.footer-links a{
+    text-decoration: none;color: rgb(0, 128, 255);
+    
+}
