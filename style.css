@@ -127,8 +127,8 @@ nav{
     position: absolute;
     top: 20%;
     z-index: 1;
-    background: #ffffff00;
-    color: #000000c5;
+    background: #f6f6f600;
+    color: #0000008e;
     border: none;
     font-size: 30px;
     cursor: pointer;
